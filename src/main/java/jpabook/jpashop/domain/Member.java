@@ -1,8 +1,7 @@
-package jpabook.jpashop.Domain;
+package jpabook.jpashop.domain;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.GeneratorType;
 
 import javax.persistence.*;
 import java.util.ArrayList;
