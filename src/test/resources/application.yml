@@ -1,0 +1,23 @@
+
+server:
+  port: 8088
+
+spring:
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://192.168.1.63:3306/jpashoptest
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        #show_sql: true
+        format_sql: true
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug # hibernate? ???? ??? ?? ? ???
+    org.hibernate.type: trace # hibernate ? ???? ???? ???
